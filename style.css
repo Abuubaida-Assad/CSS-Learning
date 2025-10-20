@@ -14,6 +14,7 @@ div {
     background-color: burlywood;
     display: flex;
     justify-content: space-evenly;
+    
 }
 #box1 {
     background-color: aqua;
@@ -25,7 +26,7 @@ div {
     background-color: aquamarine;
 }
 #box4 {
-    background-color: blue;
+background-color: burlywood;
 }
 #box5 { 
     background-color: chocolate;
