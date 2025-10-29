@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darkgray;
+            height: 1080px;
+        }
+        .traffic-light {
+            width: 100px;
+            background-color: black;
+            padding: 20px;
+            border-radius: 20px;
+            display: flex;
+             flex-direction: column;
+            gap: 15px;
+           
+
+        }
+        .light {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: white;
+            margin: 0 auto;
+
+
+        }
+        .red {
+            background-color: rgba(230, 0, 0, 1);
+        }
+        .yellow {
+            background-color: rgba(255, 120, 0, 1);
+        }
+        .green {
+            background-color: rgba(76, 187, 17, 1);
+        }
+        .red:hover {
+            background-color: red;
+            cursor: pointer;
+        } 
+        .yellow:hover {
+            background-color: yellow;
+            cursor: pointer;
+        } 
+        .green:hover {
+            background-color: green;
+            cursor: pointer;
+        } 
+
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="traffic-light">
+            <div class="light red"></div>
+            <div class="light yellow"></div>
+            <div class="light green"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
