@@ -55,5 +55,28 @@
         </div>
 
   </div>
+  <script>
+    // 
+    // function countVowels(str) {
+    //   for (const char of str){
+    //     console.log(char);
+    //   }
+    // }
+//    
+function sum(a, b) {
+  const sum = a+b;
+  console.log('Sum is',sum)
+}
+sum(1, 2)
+function area(length,width) {
+  if(length <= 0){
+    throw new RangeError("length should be a positive number")
+  }
+  const area = length*width;
+  console.log('Area is',area)
+}
+area(5, 2)
+area(-5, 10)
+  </script>
 </body>
 </html>
